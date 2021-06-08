@@ -4,6 +4,7 @@
 Автор: kritzona (https://github.com/kritzona).
 
 ## Установка окружения
+
 > git clone https://github.com/kritzona/additional-webpack-react-config.git  
 > && cd ./additional-webpack-react-config && npm i
 

@@ -7,7 +7,12 @@ const DarkTheme: DefaultTheme = {
     backgroundColor: '#112531',
     whiteColor: '#FFFFFF',
   },
-  sizes: {},
+  sizes: {
+    stepSize: 5,
+    largeFontSize: 28,
+    normalFontSize: 14,
+    smallFontSize: 11,
+  },
 }
 
 export default DarkTheme

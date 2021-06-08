@@ -9,6 +9,11 @@ declare module 'styled-components' {
       backgroundColor: string
       whiteColor: string
     }
-    sizes: {}
+    sizes: {
+      stepSize: number
+      largeFontSize: number
+      normalFontSize: number
+      smallFontSize: number
+    }
   }
 }

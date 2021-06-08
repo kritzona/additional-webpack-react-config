@@ -6,14 +6,18 @@ declare module 'styled-components' {
     colors: {
       purpleLinearGradient: string
       redLinearGradient: string
+
       backgroundColor: string
       whiteColor: string
     }
     sizes: {
       stepSize: number
+
       largeFontSize: number
       normalFontSize: number
       smallFontSize: number
+
+      borderRadius: number
     }
   }
 }

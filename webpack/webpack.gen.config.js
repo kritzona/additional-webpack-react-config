@@ -86,7 +86,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              filename: '[name].[contenthash].[ext]',
+              name: '[name].[contenthash].[ext]',
               outputPath: 'images',
             },
           },
@@ -99,7 +99,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              filename: '[name].[contenthash].[ext]',
+              name: '[name].[contenthash].[ext]',
               outputPath: 'fonts',
             },
           },

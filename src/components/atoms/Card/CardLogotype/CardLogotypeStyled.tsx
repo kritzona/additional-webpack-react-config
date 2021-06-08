@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const CardLogotypeStyled = styled.img.attrs(() => ({
-  src: masterCardIconSource as string,
+  src: masterCardIconSource,
   alt: '',
 }))<IProps>`
   ${() => css`

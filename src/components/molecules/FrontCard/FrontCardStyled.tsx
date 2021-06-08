@@ -5,7 +5,9 @@ interface IProps {
 }
 
 const FrontCardStyled = styled.div<IProps>`
-  ${() => css``}
+  ${() => css`
+    width: max-content;
+  `}
 `
 
 export default FrontCardStyled

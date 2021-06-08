@@ -5,7 +5,7 @@ interface IProps {
 }
 
 const GlobalStyle = createGlobalStyle<IProps>`
-  ${() => css`
+  ${({ theme }) => css`
     * {
       box-sizing: border-box;
     }
@@ -14,8 +14,8 @@ const GlobalStyle = createGlobalStyle<IProps>`
     html {
       margin: 0 auto;
       padding: 0;
-      color: #333333;
-      background-color: #ffffff;
+      color: ${theme.colors.whiteColor};
+      background-color: ${theme.colors.backgroundColor};
       -webkit-font-smoothing: subpixel-antialiased;
     }
   `}

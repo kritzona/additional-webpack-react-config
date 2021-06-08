@@ -6,12 +6,13 @@ import store from './store/store'
 import App from './App'
 import './index.scss'
 import GlobalStyle from './themes/GlobalStyle/GlobalStyle'
+import DarkTheme from './themes/DarkTheme/DarkTheme'
 
 const rootElement: HTMLElement | null = document.getElementById('root')
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <ThemeProvider theme={{}}>
+      <ThemeProvider theme={DarkTheme}>
         <GlobalStyle />
         <App />
       </ThemeProvider>
